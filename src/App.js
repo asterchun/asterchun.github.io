@@ -13,9 +13,10 @@ function App() {
   return (
     <div className="main">
     <Router>
-      <div className="links">
+      <div className="tabs">
       <div>
         <NavLink
+          className="home-button"
           activeStyle={{ color : "black", backgroundColor : "white", padding: 10, borderRadius : 20 }}
           style={{ textDecoration: "none", color : "white", padding: 10 }}
           exact to="/">

@@ -1,4 +1,4 @@
-.links {
+.tabs {
   position: absolute;
   top: 5vh;
   left: 2vw;
@@ -8,20 +8,46 @@
   text-align: center;
 }
 
+.links {
+  display: flex;
+  width: 20vw;
+  justify-content: space-evenly;
+  align-self: center;
+}
+
+.email-link {
+  color: burlywood;
+}
+
 .main {
   background-color: black;
 }
 
 .profile-pic {
-  max-width: auto;
-  max-height: auto;
-  height: 20%;
-  width: 20%;
+  max-width: 20%;
+  max-height: 20%;
+  height: auto;
+  width: auto;
+}
+
+.github-logo {
+  height: 50px;
+  max-width: 50px;
+}
+
+.linkedin-logo {
+  height: 50px;
+  max-width: 50px;
+}
+
+.resume-logo {
+  height: 50px;
+  max-width: 50px;
 }
 
 .home-content {
   position: absolute;
-  top: 35vh;
+  top: 30vh;
   left: 5vw;
   right: 5vw;
   display: flex;
@@ -33,6 +59,10 @@
   justify-content: space-between;
 }
 
+.home-content-wrapper {
+  display: flex;
+  flex-direction: column;
+}
 
 .home-header {
   color: white;
@@ -53,6 +83,7 @@
   height: 100%;
   width: 100%;
 }
+
 
 /* .App-logo {
   height: 40vmin;
