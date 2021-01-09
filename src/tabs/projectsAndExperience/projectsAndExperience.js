@@ -5,8 +5,11 @@ import particlesConfig from "./particlesConfig";
 export function ProjectsAndExperiencePage() {
     return (
         <div className="project-page">
+            <div className="project-content">
+                Work in progress!
+            </div>
             <Particles 
-                id="particles"
+                id="particles-project"
                 params={particlesConfig}
             />
     
