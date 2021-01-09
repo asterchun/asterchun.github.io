@@ -2,9 +2,9 @@ import { React } from "react";
 import Particles from "react-particles-js";
 import particlesConfig from "./particlesConfig";
 import profilePic from "../../images/profilePic.png";
-import linkedin from "../../images/linkedinLogo.png"
-import github from "../../images/githubLogo.png"
-import resume from "../../images/resumeLogo.png"
+import linkedin from "../../images/linkedinLogo.png";
+import github from "../../images/githubLogo.png";
+import resume from "../../images/resumeLogo.png";
 
 
 export function HomePage() {
