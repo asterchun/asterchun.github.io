@@ -11,36 +11,35 @@ import { ProjectsPage } from "./tabs/projectsAndExperience";
 
 function App() {
   return (
-    <div className="main">
-    <Router>
+    <div>
       <div className="tabs">
-      <div>
-        <NavLink
-          className="tab-button"
-          activeStyle={{ color : "black", backgroundColor : "white", padding: 10, borderRadius : 20 }}
-          style={{ textDecoration: "none", color : "white", padding: 10 }}
-          exact to="/">
-          Home
-        </NavLink>
-      </div>
-      <div>
-        <NavLink 
-          className="tab-button"
-          activeStyle={{ color : "black", backgroundColor : "white", padding: 10, borderRadius : 20 }}
-          style={{ textDecoration: "none", color : "white", padding: 10}}
-          exact to="/about">
-          About
-        </NavLink>
-      </div>
-      <div>
-        <NavLink 
-          className="tab-button"
-          activeStyle={{ color : "black", background : "white", padding: 10, borderRadius: 20}}
-          style={{ textDecoration: "none", color : "white", padding : 10}}
-          exact to="/projects">
-          Projects
-        </NavLink>
-      </div>
+        <div>
+          <NavLink
+            className="tab-button"
+            activeStyle={{ color : "black", backgroundColor : "white", padding: 10, borderRadius : 20 }}
+            style={{ textDecoration: "none", color : "white", padding: 10 }}
+            exact to="/">
+            Home
+          </NavLink>
+        </div>
+        <div>
+          <NavLink 
+            className="tab-button"
+            activeStyle={{ color : "black", backgroundColor : "white", padding: 10, borderRadius : 20 }}
+            style={{ textDecoration: "none", color : "white", padding: 10}}
+            exact to="/about">
+            About
+          </NavLink>
+        </div>
+        <div>
+          <NavLink 
+            className="tab-button"
+            activeStyle={{ color : "black", background : "white", padding: 10, borderRadius: 20}}
+            style={{ textDecoration: "none", color : "white", padding : 10}}
+            exact to="/projects">
+            Projects
+          </NavLink>
+        </div>
       </div>
       <Switch>
         <Route path="/about">
@@ -53,7 +52,6 @@ function App() {
           <HomePage />
         </Route>
       </Switch>  
-    </Router>
     </div>
   );
 }

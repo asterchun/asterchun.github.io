@@ -6,7 +6,9 @@ export function ProjectsPage() {
     return (
         <div className="project-page">
             <div className="project-content">
-                Work in progress!
+                <div className="project-header">
+                    Projects
+                </div>
             </div>
             <Particles 
                 className="particles-project"
