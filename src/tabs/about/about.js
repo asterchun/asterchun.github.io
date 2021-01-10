@@ -28,7 +28,11 @@ export function AboutPage() {
                                 Machine Structures
                                 </a>
                             </li>
-                            <li>Designing Information Devices and Systems</li>
+                            <li>
+                                <a href="https://www.eecs16b.org/" className="course-websites">
+                                    Designing Information Devices and Systems
+                                </a>
+                            </li>
                             <li>
                                 <a href="https://su20.cs161.org/" className="course-websites">
                                 Computer Security
@@ -55,21 +59,31 @@ export function AboutPage() {
                         </ul>
                     </div>
                 </div>
-                <div className="skill-hobby-wrappy">
+                <div className="skill-hobby-wrapper">
                     <div className="technical-skills">
                         <div className="technical-header">
                             Technical
                         </div>
+                        <div className="technical-content">
+                            As an undergraduate who enjoys software development, I have worked on numerous projects both personally and for school courses. As a result, I have completed projects using <span className="technical-highlight">Python, Java, Kotlin, JavaScript, HTML, CSS, C, Go, RISC-V and Snap!</span>. Additionally, I am also comfortable writing code using <span className="technical-highlight">SQL</span> and have used libraries and tools such as <span className="technical-highlight">React, GraphQl, Apollo Client, Numpy, OkHTTP, Flask</span> and much more!
+                            <br></br>
+                            Some of the current projects I am working on involve app and web devlopment. In the future, I am planning to learn more about iOS development using <span className="technical-highlight">Swift</span> and possibly <span className="technical-highlight">React Native</span>!
+                        <br></br>
+
+                        </div>
                     </div>
                     <div className="hobbies">
-                    <div className="hobby-header">
+                        <div className="hobby-header">
                             Hobbies
+                        </div>
+                        <div className="hobby-content">
+                            During my free time, I enjoy exercising. In particular, I enjoy playing badminton, soccer and running. I also enjoy reading and watching videos/TV series. Another activity I enjoy is playing the violin.
                         </div>
                     </div>   
                 </div> 
             </div>
             <Particles 
-                id="particles-about"
+                className="particles-about"
                 params={particlesConfig}
             />
     

@@ -9,7 +9,7 @@ export function ProjectsAndExperiencePage() {
                 Work in progress!
             </div>
             <Particles 
-                id="particles-project"
+                className="particles-project"
                 params={particlesConfig}
             />
     

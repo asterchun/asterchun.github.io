@@ -16,7 +16,7 @@ function App() {
       <div className="tabs">
       <div>
         <NavLink
-          className="home-button"
+          className="tab-button"
           activeStyle={{ color : "black", backgroundColor : "white", padding: 10, borderRadius : 20 }}
           style={{ textDecoration: "none", color : "white", padding: 10 }}
           exact to="/">
@@ -25,6 +25,7 @@ function App() {
       </div>
       <div>
         <NavLink 
+          className="tab-button"
           activeStyle={{ color : "black", backgroundColor : "white", padding: 10, borderRadius : 20 }}
           style={{ textDecoration: "none", color : "white", padding: 10}}
           exact to="/about">
@@ -33,12 +34,12 @@ function App() {
       </div>
       <div>
         <NavLink 
-          activeStyle={{ color : "black", background : "white", padding: 10, borderRadius: 20
-          }}
+          classname="tab-button"
+          activeStyle={{ color : "black", background : "white", padding: 10, borderRadius: 20}}
           style={{ textDecoration: "none", color : "white", padding : 10}}
           exact to="/projects&experience">
           Projects
-          </NavLink>
+        </NavLink>
       </div>
       </div>
       <Switch>
