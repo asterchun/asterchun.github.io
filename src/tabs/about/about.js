@@ -13,12 +13,37 @@ export function AboutPage() {
                     <div className="courses-content">
                         Here are a list of some of the technical courses that I have taken:
                         <ul className="course-list">
-                            <li>Data Structures</li>
-                            <li>Machine Structures</li>
+                            <li>
+                                <a href="https://inst.eecs.berkeley.edu/~cs61a/sp19/" className="course-websites">
+                                Structure and Interpretation of Computer Programs
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://inst.eecs.berkeley.edu/~cs61b/fa19/" className="course-websites">
+                                Data Structures
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://cs61c.org/sp20/" className="course-websites">
+                                Machine Structures
+                                </a>
+                            </li>
                             <li>Designing Information Devices and Systems</li>
-                            <li>Computer Security</li>
-                            <li>Introduction to Artificial Intelligence</li>
-                            <li>Compilers</li>
+                            <li>
+                                <a href="https://su20.cs161.org/" className="course-websites">
+                                Computer Security
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://inst.eecs.berkeley.edu/~cs188/fa20/" className="course-websites">
+                                Introduction to Artificial Intelligence
+                                </a>    
+                            </li>
+                            <li>
+                                <a href="https://inst.eecs.berkeley.edu/~cs164/fa20/" className="course-websites">
+                                Compilers
+                                </a>
+                            </li>
                         </ul>
                         ...and here are some of the courses that I am planning to take:
                         <ul className="course-list">
