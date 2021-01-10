@@ -56,11 +56,11 @@
 
 .about-content {
   position: absolute;
-  top: 30vh;
+  top: 12vh;
   left: 5vw;
   right: 5vw;
   display: flex;
-  flex-direction: column;
+
 }
 
 .project-content {
@@ -102,6 +102,41 @@
   width: 100%;
 }
 
+.hobby-header {
+  color: white;
+  font-size: 2.5vw;
+  font-family: fantasy;
+  font-weight: bolder;
+}
+
+.technical-header {
+  color: white;
+  font-size: 2.5vw;
+  font-family: fantasy;
+  font-weight: bolder;
+}
+
+.courses-header {
+  color: white;
+  font-size: 2.5vw;
+  font-family: fantasy;
+  font-weight: bolder;
+}
+
+.courses-content {
+  color: whitesmoke;
+  font-size: 1.3vw;
+  font-family: fantasy;
+}
+
+.course-list {
+  list-style-type: circle;
+}
+
+.skill-hobby-wrapper {
+  display: flex;
+  flex-direction: column;
+}
 
 /* .App-logo {
   height: 40vmin;

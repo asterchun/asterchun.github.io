@@ -37,7 +37,7 @@ function App() {
           }}
           style={{ textDecoration: "none", color : "white", padding : 10}}
           exact to="/projects&experience">
-          Projects and Professional Experience
+          Projects
           </NavLink>
       </div>
       </div>

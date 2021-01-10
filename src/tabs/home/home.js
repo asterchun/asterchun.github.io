@@ -9,12 +9,12 @@ import resume from "../../images/resumeLogo.png";
 
 export function HomePage() {
     return (
-        <div className="home-page">
+        <div>
             <div className="home-content">
                 <div className="home-header">Hello!</div>
                 <div className="picture-wrapper">
                     <div className="home-content-wrapper">
-                        <div className="home-body">My name is Aster Chun and I am currently a junior at UC Berkeley double majoring in Computer Science and Applied Mathematics. If you are interested in working together, please feel free to <a href="mailto:asterchun@berkeley.edu" className="email-link">contact me</a>!
+                        <div className="home-body">My name is Aster Chun and I am currently a junior at UC Berkeley double majoring in Computer Science and Applied Mathematics. If you are interested in working together, please feel free to <a href="mailto:asterchun@berkeley.edu" className="email-link">contact me</a> at: <a href="mailto:asterchun@berkeley.edu" className="email-link">asterchun@berkeley.edu</a>!
                         </div>
                         <br></br>
                         <div className="links">
