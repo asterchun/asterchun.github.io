@@ -7,6 +7,9 @@ export function ProjectEntry(props) {
                 <div className="project-name">
                     {props.name}
                 </div>
+                <div className="project-language">
+                    Programming language: {props.language}
+                </div>
                 <div className="project-date">
                     {props.date}
                 </div>
@@ -14,6 +17,7 @@ export function ProjectEntry(props) {
                     {props.info}
                 </div>
             </div>
+            <img src={props.imgPath} alt={props.name + " pic"}></img>
         </div>
     );
 }

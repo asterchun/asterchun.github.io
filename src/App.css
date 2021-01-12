@@ -222,17 +222,20 @@
 }
 
 .project-filters {
+  position: absolute;
+  top: 10vh;
+  right: 10vw;
   color: whitesmoke;
   font-size: 1.8vw;
   font-family: fantasy;
   display: flex;
-  justify-content: space-around;
 
 }
 
 .projects {
   display: flex;
   flex-direction: column;
+  align-self: center;
 }
 
 .project-name {
@@ -253,4 +256,11 @@
   color: whitesmoke;
   font-size: 1.2vw;
   font-family: fantasy;
+}
+
+.project-language {
+  color: whitesmoke;
+  font-size: 1.2vw;
+  font-family: fantasy;
+  font-weight: bold;
 }

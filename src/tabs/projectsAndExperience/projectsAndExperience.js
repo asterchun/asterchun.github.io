@@ -18,16 +18,100 @@ export function ProjectsPage() {
     const [showWeb, setShowWeb] = useState(false);
     const [showApp, setShowApp] = useState(false);
 
-    const test = {
+    const Sprinkles = {
         name: "hello",
         date: "november",
+        language: "Kotlin",
         info: "this is a test"
+        imgPath:
     };
     
-    const test2 = {
+    const ChocoPy = {
         name: "hello",
         date: "november",
-        info: "this is a test2"
+        language: "Kotlin",
+        info: "this is a test"
+        imgPath:
+    };
+
+    const PacMan = {
+        name: "hello",
+        date: "november",
+        language: "Kotlin",
+        info: "this is a test"
+        imgPath:
+    };
+
+    const GhostBusters = {
+        name: "hello",
+        date: "november",
+        language: "Kotlin",
+        info: "this is a test"
+        imgPath:
+    };
+
+    const Classification = {
+        name: "hello",
+        date: "november",
+        language: "Kotlin",
+        info: "this is a test"
+        imgPath:
+    };
+
+    const Gitlet = {
+        name: "hello",
+        date: "november",
+        language: "Kotlin",
+        info: "this is a test"
+        imgPath:
+    };
+
+    const NumC = {
+        name: "hello",
+        date: "november",
+        language: "Kotlin",
+        info: "this is a test"
+        imgPath:
+    };
+
+    const Phispel = {
+        name: "hello",
+        date: "november",
+        language: "Kotlin",
+        info: "this is a test"
+        imgPath:
+    };
+
+    const RiscV = {
+        name: "hello",
+        date: "november",
+        language: "Kotlin",
+        info: "this is a test"
+        imgPath:
+    };
+
+    const DropBox = {
+        name: "hello",
+        date: "november",
+        language: "Kotlin",
+        info: "this is a test"
+        imgPath:
+    };
+
+    const OGQueue = {
+        name: "hello",
+        date: "november",
+        language: "Kotlin",
+        info: "this is a test"
+        imgPath:
+    };
+
+    const WhatWeEating = {
+        name: "hello",
+        date: "november",
+        language: "Kotlin",
+        info: "this is a test"
+        imgPath:
     };
 
     return (
@@ -36,17 +120,27 @@ export function ProjectsPage() {
                 <div className="project-header">
                     Projects
                 </div>
-                <div className="project-filters">
+                <div className="projects">
+                    <ProjectEntry {...Sprinkles} />
+                    <ProjectEntry {...OGQueue} />
+                    <ProjectEntry {...ChocoPy} />
+                    <ProjectEntry {...DropBox} />
+                    <ProjectEntry {...WhatWeEating} />
+                    <ProjectEntry {...NumC} />
+                    <ProjectEntry {...Gitlet} />
+                    <ProjectEntry {...Classification} />
+                    <ProjectEntry {...GhostBusters} />
+                    <ProjectEntry {...PacMan} />
+                    <ProjectEntry {...Phispel} />
+                    <ProjectEntry {...RiscV} />
+                </div>
+            </div>
+            <div className="project-filters">
                     Filter by:
-                        <button>Personal Projects</button>
+                        {/* <button>Personal Projects</button>
                         <button>Course Projects</button>
                         <button>Languages</button>
-                        <button>Fields</button>
-                </div>
-                <div className="projects">
-                    <ProjectEntry {...test}/>
-                    <ProjectEntry {...test2}/>
-                </div>
+                        <button>Fields</button> */}
             </div>
             <Particles 
                 className="particles-project"
