@@ -198,7 +198,7 @@
 /* CSS for projects page */
 .project-content {
   position: absolute;
-  top: 12vh;
+  top: 8vh;
   left: 5vw;
   right: 5vw;
   display: flex;
@@ -213,4 +213,44 @@
   width: 100%;
 }
 
+.project-header {
+  color: white;
+  font-size: 2.5vw;
+  font-family: fantasy;
+  font-weight: bolder;
+  text-align: center;
+}
 
+.project-filters {
+  color: whitesmoke;
+  font-size: 1.8vw;
+  font-family: fantasy;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-name {
+  color: whitesmoke;
+  font-size: 1.5vw;
+  font-family: fantasy;
+  font-weight: bold;
+}
+
+.project-date {
+  color: whitesmoke;
+  font-size: 1.2vw;
+  font-family: fantasy;
+  font-style: italic;
+}
+
+.project-info {
+  color: whitesmoke;
+  font-size: 1.2vw;
+  font-family: fantasy;
+}

@@ -65,7 +65,7 @@ export function AboutPage() {
                             Technical
                         </div>
                         <div className="technical-content">
-                            As an undergraduate who enjoys software development, I have worked on numerous projects both personally and for school courses. As a result, I have completed projects using <span className="technical-highlight">Python, Java, Kotlin, JavaScript, HTML, CSS, C, Go, RISC-V and Snap!</span>. Additionally, I am also comfortable writing code using <span className="technical-highlight">SQL</span> and have used libraries and tools such as <span className="technical-highlight">React, GraphQl, Apollo Client, Numpy, OkHTTP, Flask</span> and much more!
+                            As an undergraduate who enjoys software development, I have worked on numerous projects both personally and for school courses. As a result, I have completed projects using <span className="technical-highlight">Python, Java, Kotlin, JavaScript, HTML, CSS, C, Go, RISC-V</span> and <span className="technical-highlight">Snap!</span>. Additionally, I am also comfortable writing code using <span className="technical-highlight">SQL</span> and have used libraries and tools such as <span className="technical-highlight">React, GraphQl, Apollo Client, Numpy, OkHTTP, Flask</span> and much more!
                             <br></br>
                             Some of the current projects I am working on involve app and web devlopment. In the future, I am planning to learn more about iOS development using <span className="technical-highlight">Swift</span> and possibly <span className="technical-highlight">React Native</span>!
                         <br></br>
