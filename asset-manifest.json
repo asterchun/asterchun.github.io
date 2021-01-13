@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.1f862cf6.chunk.css",
-    "main.js": "/static/js/main.3a799234.chunk.js",
-    "main.js.map": "/static/js/main.3a799234.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.0246b58d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.0246b58d.js.map",
-    "static/js/2.a059b369.chunk.js": "/static/js/2.a059b369.chunk.js",
-    "static/js/2.a059b369.chunk.js.map": "/static/js/2.a059b369.chunk.js.map",
-    "static/js/3.840dea2c.chunk.js": "/static/js/3.840dea2c.chunk.js",
-    "static/js/3.840dea2c.chunk.js.map": "/static/js/3.840dea2c.chunk.js.map",
+    "main.css": "/static/css/main.de409a32.chunk.css",
+    "main.js": "/static/js/main.352401a5.chunk.js",
+    "main.js.map": "/static/js/main.352401a5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.96151043.js",
+    "runtime-main.js.map": "/static/js/runtime-main.96151043.js.map",
+    "static/js/2.64d4169d.chunk.js": "/static/js/2.64d4169d.chunk.js",
+    "static/js/2.64d4169d.chunk.js.map": "/static/js/2.64d4169d.chunk.js.map",
+    "static/js/3.57179f8d.chunk.js": "/static/js/3.57179f8d.chunk.js",
+    "static/js/3.57179f8d.chunk.js.map": "/static/js/3.57179f8d.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.1f862cf6.chunk.css.map": "/static/css/main.1f862cf6.chunk.css.map",
-    "static/js/2.a059b369.chunk.js.LICENSE.txt": "/static/js/2.a059b369.chunk.js.LICENSE.txt",
+    "static/css/main.de409a32.chunk.css.map": "/static/css/main.de409a32.chunk.css.map",
+    "static/js/2.64d4169d.chunk.js.LICENSE.txt": "/static/js/2.64d4169d.chunk.js.LICENSE.txt",
     "static/media/githubLogo.2005d872.png": "/static/media/githubLogo.2005d872.png",
     "static/media/linkedinLogo.2f0ddeb7.png": "/static/media/linkedinLogo.2f0ddeb7.png",
     "static/media/profilePic.caaed113.png": "/static/media/profilePic.caaed113.png",
-    "static/media/resumeLogo.44aef00a.png": "/static/media/resumeLogo.44aef00a.png"
+    "static/media/resumeLogo.44aef00a.png": "/static/media/resumeLogo.44aef00a.png",
+    "static/media/sprinklesLogo.eb545bd3.png": "/static/media/sprinklesLogo.eb545bd3.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0246b58d.js",
-    "static/js/2.a059b369.chunk.js",
-    "static/css/main.1f862cf6.chunk.css",
-    "static/js/main.3a799234.chunk.js"
+    "static/js/runtime-main.96151043.js",
+    "static/js/2.64d4169d.chunk.js",
+    "static/css/main.de409a32.chunk.css",
+    "static/js/main.352401a5.chunk.js"
   ]
 }
