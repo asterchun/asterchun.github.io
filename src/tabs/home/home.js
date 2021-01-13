@@ -14,7 +14,7 @@ export function HomePage() {
                 <div className="home-header">Hello!</div>
                 <div className="picture-wrapper">
                     <div className="home-content-wrapper">
-                        <div className="home-body">My name is Aster Chun and I am currently a junior at UC Berkeley double majoring in Computer Science and Applied Mathematics. I am passionate about software development and I'm always looking for opportunities to learn and grow as a software engineer. I am interested in projects involving applications of software development and programming. If you are interested in working together, please feel free to contact me at <a href="mailto:asterchun@berkeley.edu" className="email-link">asterchun@berkeley.edu</a>!
+                        <div className="home-body">My name is Aster Chun and I am currently a junior at UC Berkeley double majoring in Computer Science and Applied Mathematics. I am passionate about software development and I'm always looking for opportunities to learn and grow as a software engineer. I am interested in projects involving software development and programming. If you are interested in working together, please feel free to contact me at <a href="mailto:asterchun@berkeley.edu" className="email-link">asterchun@berkeley.edu</a>!
                         </div>
                         <br></br>
                         <div className="links">

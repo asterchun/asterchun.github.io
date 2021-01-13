@@ -17,7 +17,7 @@ export function ProjectEntry(props) {
                     {props.info}
                 </div>
             </div>
-            <img src={props.imgPath} alt={props.name + " pic"}></img>
+            {props.imgPath ? <img src={props.imgPath} alt={props.name + " pic"} className="project-pic" /> : null}
         </div>
     );
 }

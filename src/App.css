@@ -224,12 +224,10 @@
 .project-filters {
   position: absolute;
   top: 10vh;
-  right: 10vw;
+  right: 8vw;
   color: whitesmoke;
   font-size: 1.8vw;
   font-family: fantasy;
-  display: flex;
-
 }
 
 .projects {
@@ -256,6 +254,7 @@
   color: whitesmoke;
   font-size: 1.2vw;
   font-family: fantasy;
+  padding-bottom: 15px;
 }
 
 .project-language {
@@ -263,4 +262,18 @@
   font-size: 1.2vw;
   font-family: fantasy;
   font-weight: bold;
+}
+
+.dropdown {
+  width: auto;
+  height: 5vh;
+  border-radius: 20;
+  font-size: auto;
+  font-family: monospace;
+  background-color: whitesmoke;
+  border-radius: 15px;
+}
+
+.project-entry-body {
+  display: flex;
 }
