@@ -45,7 +45,7 @@ export function AboutPage() {
                             </li>
                             <li>
                                 <a href="https://inst.eecs.berkeley.edu/~cs164/fa20/" className="course-websites">
-                                Compilers
+                                Programming Languages and Compilers
                                 </a>
                             </li>
                         </ul>
