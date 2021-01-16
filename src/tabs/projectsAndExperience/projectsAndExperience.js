@@ -2,7 +2,6 @@ import { React, useState } from "react";
 import Particles from "react-particles-js";
 import particlesConfig from "./particlesConfig";
 import { ProjectEntry } from ".";
-import sprinkles from "../../images/sprinklesLogo.png";
 
 export function ProjectsPage() {
 
@@ -128,16 +127,11 @@ export function ProjectsPage() {
         attributes: ["Kotlin", "App", "Personal Projects", "None"]
     };
 
-
-
     const projLst = [Sprinkles, OGQueue, ChocoPy, DropBox, PacMan, NumC, Gitlet, WhatWeEating, Classification, GhostBusters,  RiscV, Phispel];
     const filteredLst = projLst.filter(function (item) {
         return item.attributes.includes(appliedFilter);
     });
 
-    console.log(projLst);
-    console.log(filteredLst);
-    console.log(appliedFilter);
     return (
         <div className="project-page">
             <div className="project-content">
