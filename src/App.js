@@ -1,6 +1,5 @@
 import './App.css';
 import {
-  HashRouter as Router,
   Switch,
   Route,
   NavLink
