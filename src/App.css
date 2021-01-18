@@ -89,13 +89,14 @@
 .home-header {
   color: white;
   font-size: 4vw;
-  font-family: fantasy;
+  /* font-family: fantasy; */
 }
 
 .home-body {
   color: whitesmoke;
   font-size: 1.5vw;
-  font-family: fantasy;
+  /* font-family: fantasy; */
+  line-height: 4vh;
 }
 
 .particles-home {
@@ -137,28 +138,29 @@
 .hobby-header {
   color: white;
   font-size: 2.5vw;
-  font-family: fantasy;
+  /* font-family: fantasy; */
   font-weight: bolder;
 }
 
 .technical-header {
   color: white;
   font-size: 2.5vw;
-  font-family: fantasy;
+  /* font-family: fantasy; */
   font-weight: bolder;
 }
 
 .courses-header {
   color: white;
   font-size: 2.5vw;
-  font-family: fantasy;
+  /* font-family: fantasy; */
   font-weight: bolder;
 }
 
 .courses-content {
   color: whitesmoke;
   font-size: 1.3vw;
-  font-family: fantasy;
+  line-height: 4vh;
+  /* font-family: fantasy; */
 }
 
 .course-list {
@@ -179,8 +181,9 @@
 .technical-content {
   color: whitesmoke;
   font-size: 1.3vw;
-  font-family: fantasy;
+  /* font-family: fantasy; */
   padding-bottom: 5px;
+  line-height: 3vh;
 }
 
 .technical-highlight {
@@ -191,7 +194,7 @@
 .hobby-content {
   color: whitesmoke;
   font-size: 1.3vw;
-  font-family: fantasy;
+  /* font-family: fantasy; */
 }
 
 
@@ -217,7 +220,7 @@
 .project-header {
   color: white;
   font-size: 2.5vw;
-  font-family: fantasy;
+  /* font-family: fantasy; */
   font-weight: bolder;
   text-align: center;
 }
@@ -228,7 +231,7 @@
   right: 8vw;
   color: whitesmoke;
   font-size: 1.8vw;
-  font-family: fantasy;
+  /* font-family: fantasy; */
 }
 
 .projects {
@@ -240,28 +243,32 @@
 .project-name {
   color: whitesmoke;
   font-size: 1.5vw;
-  font-family: fantasy;
+  /* font-family: fantasy; */
   font-weight: bold;
 }
 
 .project-date {
   color: whitesmoke;
   font-size: 1.2vw;
-  font-family: fantasy;
+  /* font-family: fantasy; */
+  line-height: 3vh;
   font-style: italic;
+  padding-bottom: 2px;
 }
 
 .project-info {
   color: whitesmoke;
   font-size: 1.2vw;
-  font-family: fantasy;
+  /* font-family: fantasy; */
   padding-bottom: 15px;
+  line-height: 3vh;
 }
 
 .project-language {
   color: whitesmoke;
   font-size: 1.2vw;
-  font-family: fantasy;
+  /* font-family: fantasy; */
+  line-height: 4vh;
   font-weight: bold;
 }
 
